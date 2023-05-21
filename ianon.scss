@@ -1,3 +1,4 @@
+$breakpoint-mobile: 680px;
 :root {
 	--body-color: #dadada;
 	--msg-self-color: rgb(236, 248, 255);
@@ -84,9 +85,6 @@ body {
 	body{
 	overflow-y: scroll
 	}
-/* 	#app {
-	    padding-bottom: 10px;
-	} */
 }
 
 html * {
@@ -99,27 +97,6 @@ html * {
 	-moz-osxfont-smoothing: auto;
 	-webkit-font-smoothing: auto;
 }
-
-/* #submit-tooltip, #upload-tooltip {
-    line-height: 1;
-    vertical-align: middle;
-    align-self: center;
-    margin-bottom: 0;
-} */
-
-/* #form #input {
-    max-height: 100px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    height: 50px;
-    line-height: 25px;
-    margin: 5px;
-    min-height: 50px;
-    border-radius: 8px;
-    padding: 12px 14px;
-    resize: auto;
-    background: #1a1b1f;
-} */
 
 #form {
     background: #1d1e22;
@@ -263,31 +240,6 @@ input {
 	#chat .condensed-summary .time{
 	display: block
 }
-
-/* #chat .msg:not(.closed):not([data-type=condensed]),
-#chat .msg:not(.closed):not([data-type=condensed])[data-type=message]{align-items:unset;clear:both;display:grid;flex-wrap:wrap;float:left;font-size:var(--font-size-msg);gap:0 2px;grid-template-columns:minmax(50px,
-1fr) 50px}#chat .time {
-	justify-self: flex-end;
-	overflow: visible;
-	white-space: nowrap;
-	width: auto !important
-} */
-
-/* #chat .from {
-	grid-column: 1/-1;
-	-webkit-mask-image: linear-gradient(270deg, transparent, var(--window-bg-color) 10px);
-	mask-image: linear-gradient(270deg, transparent, var(--window-bg-color) 10px);
-	padding-right: 10px;
-	width: 75px
-} */
-
-/* #chat .content {
-	border-left: 1px solid var(--body-color-muted);
-	flex: 1 1 auto;
-	min-width: 0;
-	overflow: hidden;
-	text-align: left
-}} */
 }
 #chat .content {
 	border-left: 1px solid var(--body-color-muted);
@@ -646,12 +598,6 @@ body #chat .toggle-content .thumb {
 	background: rgba(255,255,255,.11)
 }
 
-/* #upload-tooltip {
-    line-height: 1;
-    vertical-align: middle;
-    align-self: center;
-} */
-
 .textcomplete-item a {
 	color: var(--body-color-muted)
 }
@@ -665,12 +611,6 @@ body #chat .toggle-content .thumb {
 .window h3 {
 	color: var(--body-color)
 }
-
-/* #chat .msg[data-type=condensed] .msg,
-#chat .msg {
-	padding-bottom: 0;
-	padding-top: 0
-} */
 
 #chat .from::after {
 	display: none !important
@@ -866,19 +806,6 @@ body #connectform input.input {
 	width: 100%
 }
 
-/* #chat .content {
-	border: 0;
-	display: block;
-	padding-bottom: 0;
-	padding-left: 0;
-	padding-right: 0;
-} */
-
-/* #chat .from {
-	padding-left: 0;
-	padding-top: 0
-} */
-
 #chat .unread-marker-text::before,
 #chat .date-marker-text::before {
 	white-space: nowrap
@@ -890,55 +817,14 @@ body #connectform input.input {
 	width: 100%
 }
 
-/* #chat .msg[data-type=condensed],
-#chat .msg {
-	background: var(--chat-bubble-background);
-	border-radius: 10px;
-	margin: 4px 10px;
-	max-width: 82%;
-	padding: 8px 10px
-} */
-
 #chat .msg[data-type=condensed]>.msg,
 #chat .msg>.msg {
 	margin-left: 0
 }
 
-/* #chat .msg[data-type=condensed] .from .user,
-#chat .msg[data-type=condensed] .from,
-#chat .msg[data-type=condensed] .from *,
-#chat .msg .from .user,
-#chat .msg .from,
-#chat .msg .from * {
-	font-size: 1.07238em;
-} */
-
 #chat .msg .from {
     padding-right: 5px;
 }
-
-/* #chat .msg[data-type=condensed] .from .user .only-copy,
-#chat .msg[data-type=condensed] .from .only-copy,
-#chat .msg[data-type=condensed] .from * .only-copy,
-#chat .msg .from .user .only-copy,
-#chat .msg .from .only-copy,
-#chat .msg .from * .only-copy {
-	display: none
-} */
-
-/* #chat .msg[data-type=condensed] .time,
-#chat .msg .time {
-	align-self: end;
-	font-size: var(--font-size-chat-timestamp);
-	margin-right: 0;
-	position: static;
-	white-space: nowrap
-} */
-
-/* #chat .msg[data-type=condensed].previous-source,
-#chat .msg.previous-source {
-	padding: 5px 10px
-} */
 
 #chat .chat-view[data-type=channel] .msg.highlight {
 	background: var(--highlight-bg-color-mobile-conversation-layout) !important
@@ -956,36 +842,17 @@ body #connectform input.input {
 	margin-bottom: -4px
 }
 
-/* #chat .msg.self {
-	background: var(--background-color-msg-self-conversation-layout);
-	float: right !important;
-	justify-self: flex-end;
-	margin-left: auto;
-	max-width: 82%
-} */
-
-/* #chat .msg.self .from {
-	display: none !important
-} */
-
 #chat .msg.self.previous-source {
 	font-size: var(--font-size-msg)
 }
 
 #chat .msg.self .time {
 	color: var(--color-timestamp-self-mobile-conversation-layout);
-	font-size: inherit;
 }
 
 #chat .msg+.msg.previous-source .from {
 	display: none
 }
-
-/* #chat .msg[data-type=message] .from {
-	float: left;
-	text-align: left;
-	width: auto
-} */
 
 #chat .msg:not([data-type=message]) .from {
 	display: none
@@ -999,29 +866,11 @@ body #connectform input.input {
 	color:  #e3e3e3;
 }
 
-#chat .msg > .from,
-#chat .msg > .time,
-#chat .msg > .content {
-    font-size: 1.1em;
-}
-
-#chat .msg[data-type=message] > .time,
-#chat .msg[data-type=unhandled] > .time,
-#chat .msg[data-type=mode_channel] > .time,
-#chat .msg > .time {
-    font-size: 0.9em;
-}
-
 .messages .msg .from,
 .from .user,
 #chat .from {
-	font-size: 1.04881em!important;
 	font-weight: 600;
 }
-
-/* #chat .msg[data-type=message].previous-source .content {
-	display: inline-block
-} */
 
 #chat .msg:not([data-type=message]) .content {
 	border: 0;
@@ -1043,9 +892,6 @@ body #connectform input.input {
 	#sidebar .channel-list-item {
 		font-size: 1em;
 	}
-/* 	#chat .from {
-	    margin-bottom: 3px;
-	} */
 }
 #form::before {
     position: absolute;
@@ -1094,37 +940,92 @@ body #connectform input.input {
 		    height: 100vh;
 		}
 }
+@media (max-width: $breakpoint-mobile) {
+  div[data-type="message"],
+  #chat .msg,
+  #chat .msg.self,
+  #chat .msg .content,
+  #chat .msg.self .content,
+  #chat .chat-view[data-type=channel] .msg.highlight,
+  #chat .msg:only-of-type,
+  #chat .msg:only-of-type .content,
+  #chat .msg.previous-source,
+  #chat .msg.selfprevious-source,
+  #chat .msg.previous-source .content {
+    font-size: var(--font-size-msg) !important;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  #chat .msg[data-type=condensed],
+  #chat .msg {
 
 
-/*
+    > .msg {
 
-  Fixes for iPhones with curved screens and
-  notches.
+    }
 
-  Some reading on the future of CSS:
+    .from .user,
+    .from,
+    .from * {
+      font-size: var(--font-size-nick);
 
-  https://www.w3.org/TR/css-round-display-1/
-  https://drafts.csswg.org/css-round-display/
+      .only-copy {
 
-  Separate fixes are needed for use inside the
-  Safari app (display-mode: browser) and when
-  added to the home screen as an app
-  (display-mode: standalone).
+      }
+    }
 
-  I'm using a lot of separate media queries to
-  target specifically iPhones and not all
-  mobiles. Hopefully that works correctly.
+    .time {
+      font-size: var(--font-size-chat-timestamp);
+    }
 
-*/
+    &.previous-source {
+
+    }
+  }
+
+  #chat .chat-view[data-type=channel] .msg.highlight {
+
+
+    .time {
+
+    }
+
+    &.previous-source {
+
+
+      .content {
+
+      }
+    }
+  }
+
+  #chat .msg.self {
+    .from {
+    }
+
+    &.previous-source {
+      font-size: var(--font-size-msg);
+    }
+
+    .time {
+
+    }
+  }
+
+  #chat .msg[data-type="message"] .content {
+    font-size: var(--font-size-msg);
+  }
+
+}
+
 @mixin bottomSafeAreaFix {
 
   #form {
     margin-bottom: 50px;
-    // This doesn't seem to be animating anyway.
     transition: margin-bottom 0.2s;
   
-    // Remove the safe area gap when the keyboard
-    // is up
     &:focus-within {
       margin-bottom: 15px;
     }
@@ -1147,7 +1048,6 @@ body #connectform input.input {
   }
 }
 
-/* iphone X , XS, 11 Pro, 12 Mini */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   @include bottomSafeAreaFix()
 }
@@ -1155,7 +1055,6 @@ body #connectform input.input {
   @include bottomSafeAreaFixBrowser()
 }
 
-/* iphone 12, 12 Pro */
 @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (display-mode: standalone) {
   @include bottomSafeAreaFix()
 }
@@ -1163,7 +1062,6 @@ body #connectform input.input {
   @include bottomSafeAreaFixBrowser()
 }
 
-/* iphone XR, 11 */
 @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 2) and (display-mode: standalone) {
   @include bottomSafeAreaFix()
 }
@@ -1171,7 +1069,6 @@ body #connectform input.input {
   @include bottomSafeAreaFixBrowser()
 }
     
-/* iphone XS Max, 11 Pro Max */
 @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) and (display-mode: standalone) {
   @include bottomSafeAreaFix()
 }
@@ -1179,7 +1076,6 @@ body #connectform input.input {
   @include bottomSafeAreaFixBrowser()
 }
 
-/* iphone 12 Pro Max */
 @media only screen and (min-device-width : 428px) and (max-device-height : 926px) and (-webkit-device-pixel-ratio : 3) and (display-mode: standalone) {
   @include bottomSafeAreaFix()
 }
