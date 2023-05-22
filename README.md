@@ -15,13 +15,9 @@
 		src="https://img.shields.io/npm/dt/thelounge-theme-ianon-alt.svg?colorB=007dc7&style=flat-square"></a>
 </p>
 
-<p align="center">
-	<img width="550" alt="Screenshot of the iAnon alternative theme for The Lounge"  src="https://user-images.githubusercontent.com/128842516/239688645-bf0c4ee9-689b-4927-a94c-02080e4184eb.png">
-</p>
-
 ## Alternative version
-This is the alternative mobile version to the iAnon thelounge theme.
-Original version > https://github.com/ianonapp/thelounge-theme-ianon
+This is the alternative mobile version to the iAnon thelounge theme. \
+Original: https://github.com/ianonapp/thelounge-theme-ianon
 
 ## Installation
 
@@ -30,3 +26,9 @@ Install this theme with:
 ```sh
 thelounge install thelounge-theme-ianon-alt
 ```
+
+## Screenshots
+
+![https://github.com/ianonapp/thelounge-theme-ianon-alt/raw/master/preview-desktop.png](https://github.com/ianonapp/thelounge-theme-ianon-alt/raw/master/preview-desktop.png)
+
+![https://github.com/ianonapp/thelounge-theme-ianon-alt/raw/master/preview-mobile.png](https://github.com/ianonapp/thelounge-theme-ianon-alt/raw/master/preview-mobile.png)
