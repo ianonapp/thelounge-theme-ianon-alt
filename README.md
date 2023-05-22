@@ -15,9 +15,9 @@
 		src="https://img.shields.io/npm/dt/thelounge-theme-ianon-alt.svg?colorB=007dc7&style=flat-square"></a>
 </p>
 
-## Alternative version
-This is the alternative mobile version to the iAnon thelounge theme. \
-Original: https://github.com/ianonapp/thelounge-theme-ianon
+<p align="center">
+	<img width="550" alt="Screenshot of the iAnon theme for The Lounge"  src="https://raw.githubusercontent.com/ianonapp/thelounge-theme-ianon/master/preview-desktop.png">
+</p>
 
 ## Installation
 
@@ -27,8 +27,12 @@ Install this theme with:
 thelounge install thelounge-theme-ianon-alt
 ```
 
-## Screenshots
+## Mobile
+There are 2 versions of this theme: \
+https://github.com/ianonapp/thelounge-theme-ianon - with chat bubbles \
+https://github.com/ianonapp/thelounge-theme-ianon-alt - without chat bubbles
 
-![https://github.com/ianonapp/thelounge-theme-ianon-alt/raw/master/preview-desktop.png](https://github.com/ianonapp/thelounge-theme-ianon-alt/raw/master/preview-desktop.png)
-
-![https://github.com/ianonapp/thelounge-theme-ianon-alt/raw/master/preview-mobile.png](https://github.com/ianonapp/thelounge-theme-ianon-alt/raw/master/preview-mobile.png)
+<p align="left">
+	<img width="300px" alt="Screenshot of the mobile bubbles version"  src="https://raw.githubusercontent.com/ianonapp/thelounge-theme-ianon/master/preview-mobile-bubbles.png">
+	<img width="300px" alt="Screenshot of the mobile standard version"  src="https://raw.githubusercontent.com/ianonapp/thelounge-theme-ianon/master/preview-mobile-standard.png">
+</p>
