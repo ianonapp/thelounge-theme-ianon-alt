@@ -84,7 +84,7 @@ $breakpoint-mobile: 680px;
   font-style: italic;
   font-display: swap;
   font-weight: 400;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-400-italic.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-all-400-italic.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-400-italic.woff2') format('woff2'), url('./fonts/proxima-nova-all-400-italic.woff') format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* proxima-nova-latin-400-normal*/
@@ -93,7 +93,7 @@ $breakpoint-mobile: 680px;
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-all-400-normal.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('./fonts/proxima-nova-all-400-normal.woff') format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* proxima-nova-latin-700-italic*/
@@ -102,7 +102,7 @@ $breakpoint-mobile: 680px;
   font-style: italic;
   font-display: swap;
   font-weight: 700;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-700-italic.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-all-700-italic.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-700-italic.woff2') format('woff2'), url('./fonts/proxima-nova-all-700-italic.woff') format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* proxima-nova-latin-700-normal*/
@@ -111,7 +111,7 @@ $breakpoint-mobile: 680px;
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-700-normal.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-all-700-normal.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-700-normal.woff2') format('woff2'), url('./fonts/proxima-nova-all-700-normal.woff') format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* proxima-nova-latin-400-normal*/
@@ -120,7 +120,7 @@ $breakpoint-mobile: 680px;
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-all-400-normal.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('./fonts/proxima-nova-all-400-normal.woff') format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* proxima-nova-latin-400-italic*/
@@ -129,7 +129,7 @@ $breakpoint-mobile: 680px;
   font-style: italic;
   font-display: swap;
   font-weight: 400;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-400-italic.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-400-italic.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-400-italic.woff2') format('woff2'), url('./fonts/proxima-nova-latin-400-italic.woff') format('woff');
   
 }
 /* proxima-nova-latin-400-normal*/
@@ -138,7 +138,7 @@ $breakpoint-mobile: 680px;
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-400-normal.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('./fonts/proxima-nova-latin-400-normal.woff') format('woff');
   
 }
 /* proxima-nova-latin-700-italic*/
@@ -147,7 +147,7 @@ $breakpoint-mobile: 680px;
   font-style: italic;
   font-display: swap;
   font-weight: 700;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-700-italic.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-700-italic.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-700-italic.woff2') format('woff2'), url('./fonts/proxima-nova-latin-700-italic.woff') format('woff');
   
 }
 /* proxima-nova-latin-700-normal*/
@@ -156,7 +156,7 @@ $breakpoint-mobile: 680px;
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-700-normal.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-700-normal.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-700-normal.woff2') format('woff2'), url('./fonts/proxima-nova-latin-700-normal.woff') format('woff');
   
 }
 /* proxima-nova-latin-400-normal*/
@@ -165,7 +165,7 @@ $breakpoint-mobile: 680px;
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-400-normal.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('./fonts/proxima-nova-latin-400-normal.woff') format('woff');
   
 }
 /* proxima-nova-latin-700-normal*/
@@ -174,7 +174,7 @@ $breakpoint-mobile: 680px;
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-700-normal.woff2') format('woff2'), url('/packages/iAnon%20Alt/fonts/proxima-nova-latin-700-normal.woff') format('woff');
+  src: url('./fonts/proxima-nova-latin-700-normal.woff2') format('woff2'), url('./fonts/proxima-nova-latin-700-normal.woff') format('woff');
   
 }
 
@@ -184,7 +184,7 @@ $fontId: "proxima-nova";
 $style: normal;
 $display: swap;
 $weight: 400;
-$fontDir: "/packages/iAnon%20Alt/fonts";
+$fontDir: "./fonts";
 $unicodeMap: (latin: (U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD));
 
 @mixin fontFace(
