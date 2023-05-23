@@ -1,7 +1,7 @@
 $breakpoint-mobile: 680px;
 :root {
-	--document-version: 235;
-	--available-version: 235;
+	--document-version: 234;
+	--available-version: 234;
 	--update-available: clamp(0, calc(var(--available-version) - var(--document-version)), 1);
 	--body-color: #dadada;
 	--msg-self-color: rgb(236, 248, 255);
@@ -78,172 +78,9 @@ $breakpoint-mobile: 680px;
 	}
 }
 
-/* proxima-nova-latin-400-italic*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: italic;
-  font-display: swap;
-  font-weight: 400;
-  src: url('./fonts/proxima-nova-latin-400-italic.woff2') format('woff2'), url('./fonts/proxima-nova-all-400-italic.woff') format('woff');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* proxima-nova-latin-400-normal*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url('./fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('./fonts/proxima-nova-all-400-normal.woff') format('woff');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* proxima-nova-latin-700-italic*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: italic;
-  font-display: swap;
-  font-weight: 700;
-  src: url('./fonts/proxima-nova-latin-700-italic.woff2') format('woff2'), url('./fonts/proxima-nova-all-700-italic.woff') format('woff');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* proxima-nova-latin-700-normal*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url('./fonts/proxima-nova-latin-700-normal.woff2') format('woff2'), url('./fonts/proxima-nova-all-700-normal.woff') format('woff');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* proxima-nova-latin-400-normal*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url('./fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('./fonts/proxima-nova-all-400-normal.woff') format('woff');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* proxima-nova-latin-400-italic*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: italic;
-  font-display: swap;
-  font-weight: 400;
-  src: url('./fonts/proxima-nova-latin-400-italic.woff2') format('woff2'), url('./fonts/proxima-nova-latin-400-italic.woff') format('woff');
-  
-}
-/* proxima-nova-latin-400-normal*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url('./fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('./fonts/proxima-nova-latin-400-normal.woff') format('woff');
-  
-}
-/* proxima-nova-latin-700-italic*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: italic;
-  font-display: swap;
-  font-weight: 700;
-  src: url('./fonts/proxima-nova-latin-700-italic.woff2') format('woff2'), url('./fonts/proxima-nova-latin-700-italic.woff') format('woff');
-  
-}
-/* proxima-nova-latin-700-normal*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url('./fonts/proxima-nova-latin-700-normal.woff2') format('woff2'), url('./fonts/proxima-nova-latin-700-normal.woff') format('woff');
-  
-}
-/* proxima-nova-latin-400-normal*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url('./fonts/proxima-nova-latin-400-normal.woff2') format('woff2'), url('./fonts/proxima-nova-latin-400-normal.woff') format('woff');
-  
-}
-/* proxima-nova-latin-700-normal*/
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url('./fonts/proxima-nova-latin-700-normal.woff2') format('woff2'), url('./fonts/proxima-nova-latin-700-normal.woff') format('woff');
-  
-}
-
-
-$fontName: "Proxima Nova";
-$fontId: "proxima-nova";
-$style: normal;
-$display: swap;
-$weight: 400;
-$fontDir: "./fonts";
-$unicodeMap: (latin: (U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD));
-
-@mixin fontFace(
-  $fontName: $fontName,
-  $fontId: $fontId,
-  $style: $style,
-  $display: $display,
-  $weight: $weight,
-  $fontDir: $fontDir,
-  $unicodeMap: $unicodeMap
-) {
-  @each $subset, $unicodeRangeValues in $unicodeMap {
-    @font-face {
-      font-family: "#{$fontName}";
-      font-style: $style;
-      font-display: $display;
-      font-weight: $weight;
-      src: url("#{$fontDir}/#{$fontId}-#{$subset}-#{$weight}-#{$style}.woff2") format("woff2"),
-        url("#{$fontDir}/#{$fontId}-all-#{$weight}-#{$style}.woff") format("woff");
-      unicode-range: $unicodeRangeValues;
-    }
-  }
-}
-
-$defSubset: "latin";
-$woff2Path: "#{$fontDir}/#{$fontId}-#{$defSubset}-#{$weight}-#{$style}.woff2";
-$woffPath: "#{$fontDir}/#{$fontId}-#{$defSubset}-#{$weight}-#{$style}.woff";
-$unicodeRange: false;
-$unicodeRangeValues: (U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD);
-
-@mixin fontFaceCustom(
-  $fontName: $fontName,
-  $fontId: $fontId,
-  $style: $style,
-  $display: $display,
-  $weight: $weight,
-  $woff2Path: $woff2Path,
-  $woffPath: $woffPath,
-  $unicodeRange: $unicodeRange,
-  $unicodeRangeValues: $unicodeRangeValues
-) {
-  @font-face {
-    font-family: "#{$fontName}";
-    font-style: $style;
-    font-display: $display;
-    font-weight: $weight;
-    src: url("#{$woff2Path}") format("woff2"), url("#{$woffPath}") format("woff");
-    @if $unicodeRange {
-      unicode-range: $unicodeRangeValues;
-    }
-  }
-}
-
-
-
-
 body {
 	font: initial;
-	font-family: 'Proxima Nova', 'SF Pro', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+	font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 	font-size: initial;
 }
 
@@ -269,7 +106,7 @@ html * {
 }
 
 .channel-list-item .add-channel::before {
-	font-family: 'Proxima Nova', 'SF Pro', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+	font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 	font-size: 19px
 }
 
