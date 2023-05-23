@@ -1,7 +1,7 @@
 $breakpoint-mobile: 680px;
 :root {
-	--document-version: 222;
-	--available-version: 222;
+	--document-version: 223;
+	--available-version: 223;
 	--update-available: clamp(0, calc(var(--available-version) - var(--document-version)), 1);
 	--body-color: #dadada;
 	--msg-self-color: rgb(236, 248, 255);
@@ -78,7 +78,7 @@ $breakpoint-mobile: 680px;
 }
 }
 
-@import url('https://cdn.jsdelivr.net/gh/voaii/thelounge-theme-ianon/version.css');
+@import url('https://cdn.jsdelivr.net/gh/voaii/thelounge-theme-ianon-alt/version.css');
 
 body {
 	font: initial;
@@ -530,6 +530,12 @@ kbd {
 
 #chat .chat-view[data-type=channel] .msg.highlight .content {
 	color: var(--highlight-msg-color);
+}
+
+@media (max-width: 680px) {
+	#chat .chat-view[data-type=channel] .msg.highlight .content {
+		border-left: none;
+	}
 }
 
 body #chat .toggle-content .thumb {
