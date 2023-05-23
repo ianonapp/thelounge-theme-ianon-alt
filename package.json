@@ -12,7 +12,23 @@
     "name": "iAnon Alt",
     "type": "theme",
     "files": [
-      "fonts"
+      "fonts",
+      "proxima-nova-all-400-italic.woff",
+      "proxima-nova-all-700-normal.woff",
+      "proxima-nova-latin-700-italic.woff",
+      "proxima-nova-all-400-italic.woff2",
+      "proxima-nova-all-700-normal.woff2",
+      "proxima-nova-latin-700-italic.woff2",
+      "proxima-nova-all-400-normal.woff",
+      "proxima-nova-latin-400-italic.woff",
+      "proxima-nova-latin-700-normal.woff",
+      "proxima-nova-all-400-normal.woff2",
+      "proxima-nova-latin-400-italic.woff2",
+      "proxima-nova-latin-700-normal.woff2",
+      "proxima-nova-all-700-italic.woff",
+      "proxima-nova-latin-400-normal.woff",
+      "proxima-nova-all-700-italic.woff2",
+      "proxima-nova-latin-400-normal.woff2"
     ],
     "css": "ianon.css",
     "themeColor": "#202126"
