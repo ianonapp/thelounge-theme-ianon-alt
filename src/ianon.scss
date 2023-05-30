@@ -1,7 +1,7 @@
 $breakpoint-mobile: 680px;
 :root {
-	--document-version: 246;
-	--available-version: 246;
+	--document-version: 247;
+	--available-version: 247;
 	--update-available: clamp(0, calc(var(--available-version) - var(--document-version)), 1);
 	--body-color: #dadada;
 	--msg-self-color: rgb(236, 248, 255);
@@ -941,7 +941,7 @@ body #connectform input.input {
     margin: 0 10px 10px 10px;
 }
 #chat {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 @media (max-width: 479px){
 	#chat .msg {
