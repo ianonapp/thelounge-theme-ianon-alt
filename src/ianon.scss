@@ -1,7 +1,7 @@
 $breakpoint-mobile: 680px;
 :root {
-	--document-version: 244;
-	--available-version: 244;
+	--document-version: 245;
+	--available-version: 245;
 	--update-available: clamp(0, calc(var(--available-version) - var(--document-version)), 1);
 	--body-color: #dadada;
 	--msg-self-color: rgb(236, 248, 255);
@@ -1046,6 +1046,9 @@ body #connectform input.input {
   #app {
     padding-bottom: 20px;
   }
+  #form {
+  	margin-bottom: 0;
+  }
 }
 
 @mixin bottomSafeAreaFixBrowser {
@@ -1054,6 +1057,9 @@ body #connectform input.input {
   }
   #app {
     padding-bottom: 20px;
+  }
+  #form {
+  	margin-bottom: 0;
   }
 }
 
